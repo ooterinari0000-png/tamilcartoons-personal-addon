@@ -1,0 +1,13 @@
+{
+  "name": "tamilcartoons-personal-addon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal catalogue-link add-on for TamilCartoons.in",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "express": "^4.21.2"
+  }
+}
